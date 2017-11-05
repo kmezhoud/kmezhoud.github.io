@@ -31,3 +31,11 @@ list_format = 1
 publication_type = "-1"
 +++
 
+`2014`
+__Karim Mezhoud__, Amina Sakly, Hassen Ben Cheikh, Mouldi Saïdi, and Marc Edery. Radiobiology Worker Risk Assessment Using Stress Indicators and Proteomics. *Int. J. Low Radiation* Vol.9, No.3, 2014.
+
+`2013`
+__Karim Mezhoud__ Graphical identification of cancer-associated gene sub-networks based on small proteomics data sets. *OMICS: A Journal for Integrative Biology*  2013 17(7): 393-397.
+
+`2011`
+__Karim Mezhoud__, Puiseux-Dao S., Edery M., Toxins and stress in fish: proteomic analysis and response network. 2011 Review, *Toxicon*, 57(7-8), 959-969.
