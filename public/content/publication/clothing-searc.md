@@ -1,3 +1,4 @@
+<!---
 +++
 title = "Mobile visual clothing search"
 date = "2013-07-01"
@@ -65,3 +66,4 @@ caption = "My caption :smile:"
 +++
 
 More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
+--->
