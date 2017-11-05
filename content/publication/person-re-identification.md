@@ -1,3 +1,4 @@
+<!---
 +++
 title = "A Person Re-Identification System For Mobile Devices"
 date = "2015-09-01"
@@ -61,3 +62,4 @@ caption = ""
 +++
 
 More detail can easily be written here using *Markdown* and $\rm \LaTeX$ math code.
+--->
