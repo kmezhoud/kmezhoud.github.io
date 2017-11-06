@@ -1,3 +1,4 @@
+<!---
 +++
 # Selected Publications widget.
 # This widget displays publications from `content/publication/` which have
@@ -39,3 +40,4 @@ __Karim Mezhoud__ Graphical identification of cancer-associated gene sub-network
 
 `2011`
 __Karim Mezhoud__, Puiseux-Dao S., Edery M., Toxins and stress in fish: proteomic analysis and response network. 2011 Review, *Toxicon*, 57(7-8), 959-969.
+--->

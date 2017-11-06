@@ -1,3 +1,4 @@
+<!---
 +++
 # Tag Cloud widget.
 widget = "tag_cloud"
@@ -11,3 +12,4 @@ subtitle = ""
 weight = 65
 
 +++
+--->

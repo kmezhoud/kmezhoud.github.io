@@ -1,3 +1,4 @@
+<!---
 +++
 # Recent Posts widget.
 # This widget displays recent posts from `content/post/`.
@@ -22,3 +23,4 @@ count = 5
 
 +++
 
+--->

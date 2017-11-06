@@ -1,3 +1,4 @@
+<!---
 +++
 # Recent and Upcoming Talks widget.
 widget = "talks"
@@ -20,3 +21,4 @@ list_format = 0
 
 +++
 
+--->
