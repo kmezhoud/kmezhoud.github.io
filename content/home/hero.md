@@ -1,7 +1,7 @@
 +++
 # Hero widget.
 widget = "hero"
-active = false
+active = true
 date = 2017-10-15
 
 title = "Academic"
@@ -14,7 +14,7 @@ weight = 3
 [header]
   overlay_color = "#666"  # An HTML color value.
   overlay_img = "headers/bubbles-wide.jpg"  # Image path relative to your `static/img/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
+  overlay_filter = 0  # Darken the image. Value in range 0-1.
 
 # Call to action button (optional).
 #   Activate the button by specifying a URL and button label below.
@@ -24,7 +24,7 @@ weight = 3
   label = '<i class="fa fa-download"></i> Install Now'
 +++
 
-The highly flexible website framework for Hugo with an extensible plugin mechanism. Create a beautifully simple site in under 10 minutes :rocket:
+ :rocket:
 <br>
 <small><a id="academic-release" href="https://sourcethemes.com/academic/tags/updates">Latest release</a></small>
 <br><br>
@@ -40,12 +40,12 @@ The highly flexible website framework for Hugo with an extensible plugin mechani
     } else {
       setTimeout(function() { defer() }, 50);
     }
-  })();
+  })();  
   function GetLatestReleaseInfo() {
     $.getJSON('https://api.github.com/repos/gcushen/hugo-academic/tags').done(function (json) {
       let release = json[0];
       // let downloadURL = release.zipball_url;
-      $('#academic-release').text('Latest release ' + release.name);
-    });
-}
+      $('#academic-release').text('Latest release ' + release.name);  
+    });    
+}  
 </script>
