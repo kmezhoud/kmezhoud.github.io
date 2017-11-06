@@ -1,4 +1,3 @@
-<!---
 +++
 # Recent Publications widget.
 # This widget displays recent publications from `content/publication/`.
@@ -34,4 +33,3 @@ list_format = 3
 publication_type = "-1"
 +++
 
---->
