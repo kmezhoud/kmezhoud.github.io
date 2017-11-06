@@ -1,4 +1,3 @@
-<!---
 +++
 # Contact widget.
 widget = "contact"
@@ -16,4 +15,3 @@ autolink = true
 
 +++
 
---->

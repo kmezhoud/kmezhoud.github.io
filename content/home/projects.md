@@ -1,4 +1,3 @@
-<!---
 +++
 # Projects widget.
 # This widget displays all projects from `content/project/`.
@@ -39,4 +38,3 @@ filter_default = 0
 
 +++
 
---->

@@ -6,7 +6,6 @@ date = 2017-10-15
 
 title = "Academic"
 
-<!---
 # Order that this section will appear in.
 weight = 3
 
@@ -50,4 +49,3 @@ weight = 3
     });    
 }  
 </script>
---->

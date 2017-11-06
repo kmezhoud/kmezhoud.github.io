@@ -1,4 +1,3 @@
-<!---
 +++
 # Recent Publications widget.
 # This widget displays recent publications from `content/publication/`.
@@ -6,7 +5,7 @@ widget = "publications"
 active = true
 date = 2016-04-20
 
-title = "Recent Publications"
+title = "Recent Publication"
 subtitle = ""
 
 # Order that this section will appear in.
@@ -34,4 +33,3 @@ list_format = 3
 publication_type = "-1"
 +++
 
---->
