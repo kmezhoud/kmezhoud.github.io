@@ -1,6 +1,3 @@
 ---
-output:
-  html_document:
-    df_print: paged
 site: blogdown:::blogdown_site
 ---

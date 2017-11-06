@@ -32,11 +32,11 @@ defaultContentLanguageInSubdir = false
 [params]
   # Color theme.
   #   Choose from `default`, `ocean`, `forest`, or `coffee`.
-  color_theme = "ocean"
+  color_theme = "default"
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "classic"
+  font = "default"
 
   # Your details.
   name = "Karim Mezhoud"
@@ -44,18 +44,18 @@ defaultContentLanguageInSubdir = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "Nuclear Sciences Center, TN", url = "http://www.cnstn.rnrt.tn/" } ]
+  organizations = [ { name = "Nuclear Science Center of Tunisia", url = "http://www.cnstn.rnrt.tn/" } ]
 
-  gravatar = true  # Get your avatar from Gravatar.com? (true/false)
+  gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "kmezhoud@gmail.com"
-  address = "CNSTN, Technopole Sidi Thabet, Ariana, 2020, Tunisia"
-  #office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "00216 25 909 901"
-  #skype = "echo123"
-  #telegram = ""
+  address = "Technopole Sidi Thabet, CNSTN, Ariana, 2020, Tunisia"
+  office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  phone = "+216 25 909 901"
+  skype = "mezhoud007"
+  telegram = ""
 
-  # Enable Keybase in Contact section by entering your keybase.io username.
+  # Enable Keybase in Contact widget by entering your keybase.io username.
   keybase = ""
 
   # Discussion link (e.g. link to a forum, mailing list, or chat).
@@ -64,15 +64,28 @@ defaultContentLanguageInSubdir = false
 
   # Diplay a logo in navigation bar rather than title (optional).
   #   To enable, place an image in `static/img/` and reference its filename below. To disable, set the value to "".
-  logo = "portrait"
+  logo = "logo.jpeg"
 
-  # Enable Google Maps by entering your API key, latitude, and longitude.
-  #   Get your API key: https://developers.google.com/maps/documentation/javascript/get-api-key
-  #   Get your coords: Right-click place on Google Maps. Select 'What's here?'. At the bottom is a card with the coords.
-  #   Disable Google Maps by clearing all three options to "".
-  google_maps_api_key = ""
+  # Enable/disable map in Contact widget.
+  # To show your address on a map in the contact widget, you need to enter your latitude, longitude and choose
+  # a map provider below.
+  # To use Google Maps, set `map = 1` and enter your API key that can be obtained here:
+  #   https://developers.google.com/maps/documentation/javascript/get-api-key
+  # To use OpenStreetMap tiles, set `map = 2`.
+  # To use OpenStreetMap on a high traffic site, set `map = 3` and enter your API key that can be obtained here:
+  #   https://www.mapbox.com/studio/account/tokens
+  # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
+  #
+  # Map provider:
+  #   0: No map
+  #   1: Google Maps
+  #   2: OpenStreetMap (Mapnik)
+  #   3: OpenStreetMap (Mapbox)
+  map = 0
+  map_api_key = ""
   latitude = "37.4275"
   longitude = "-122.1697"
+  zoom = 15
 
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -194,10 +207,10 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "mailto:kmezhoud@gmail.com"
 
-  #[[params.social]]
-   # icon = "twitter"
-    #icon_pack = "fa"
-    #link = "//twitter.com/GeorgeCushen"
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "//twitter.com/"
 
   [[params.social]]
     icon = "google-scholar"
