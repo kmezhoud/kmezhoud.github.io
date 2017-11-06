@@ -14,8 +14,6 @@
     
     <url>
     
-      <xhtml:link rel="alternate" href="/publication/" hreflang="en"/>
-    
       <loc>/publication/</loc>
       <lastmod>2017-01-01T00:00:00+00:00</lastmod>
     </url>
@@ -106,6 +104,15 @@
     
     <url>
     
+      <loc>/post/faq/</loc>
+      <lastmod>2016-04-10T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/person-re-identification/</loc>
       <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     </url>
@@ -124,19 +131,8 @@
     
     <url>
     
-      <loc>/publication/clothing-searc/</loc>
+      <loc>/publication/clothing-search/</loc>
       <lastmod>2013-07-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <xhtml:link rel="alternate" href="/publication/" hreflang="en"/>
-    
-      <loc>/publication/</loc>
-      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     </url>
     
   
