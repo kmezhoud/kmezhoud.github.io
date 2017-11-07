@@ -24,3 +24,4 @@ vignettes/*.pdf
 *.knit.md
 .Rproj.user
 ._about.Kirus.Rproj
+.gitkeep
